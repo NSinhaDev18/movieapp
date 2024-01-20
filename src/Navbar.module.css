@@ -1,0 +1,44 @@
+/* Navbar classes */
+
+.cartIcon {
+  height: 48px;
+  margin-right: 20px;
+}
+
+.nav {
+  height: 70px;
+  background: linear-gradient(to right, #ffcc00, #ff6666);
+  /* selector { 
+    background: linear-gradient(direction, color-stop1, color-stop2, ...); 
+            direction: Specifies the direction of the gradient. It can be an angle (e.g., 45deg), a keyword (e.g., "to right"), or a side keyword (e.g., "top").
+            color-stop: Specifies a color and its position in the gradient.
+  } */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.title {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.cartIconContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.cartCount {
+  background: orange;
+  border-radius: 50%;
+  padding: 4px 8px;
+  position: absolute;
+  right: 10px;
+  top: -5px;
+  font-size: 12px;
+}
